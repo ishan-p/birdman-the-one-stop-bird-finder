@@ -1,0 +1,166 @@
+#    This file is a part of an app, BirdMan - The One Stop Bird Finder
+#    It is an Alexa (Amazon) skill which uses public APIs provided by www.ebird.org, 
+#    www.xeno-canto.org, www.iucnredlist.org and www.mediawiki.org to get required information
+#    Copyright (C) 2016 Ishan Potbhare (ishanpotbhare@gmail.com)
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+GetNotableSpecies what are the notable sightings in {Region}
+GetNotableSpecies recent sightings in {Region}
+GetNotableSpecies hot sightings in {Region}
+GetNotableSpecies what can you see in {Region}
+GetNotableSpecies which birds can you see in {Region}
+GetNotableSpecies which birds are seen in {Region}
+GetNotableSpecies birds in the {Region}
+GetNotableSpecies tell me birds in the {Region}
+GetNotableSpecies tell me recent sightings in {Region}
+GetNotableSpecies which birds are found in {Region}
+GetNotableSpecies tell me about birds recently seen in {Region}
+GetNotableSpecies what are the notable sightings at {Region}
+GetNotableSpecies recent sightings at {Region}
+GetNotableSpecies hot sightings at {Region}
+GetNotableSpecies what can you see at {Region}
+GetNotableSpecies which birds can you see at {Region}
+GetNotableSpecies which birds are seen at {Region}
+GetNotableSpecies birds at the {Region}
+GetNotableSpecies tell me birds at the {Region}
+GetNotableSpecies tell me recent sightings at {Region}
+GetNotableSpecies which birds are found at {Region}
+GetNotableSpecies tell me about birds recently seen at {Region}
+BirdSound play {BirdName}
+BirdSound play a {BirdName}
+BirdSound play an {BirdName}
+BirdSound play the {BirdName}
+BirdSound to play {BirdName}
+BirdSound to play the {BirdName}
+BirdSound to play a {BirdName}
+BirdSound to play an {BirdName}
+BirdSound how does {BirdName} sound
+BirdSound how does a {BirdName} sound
+BirdSound how does an {BirdName} sound
+BirdSound how does the {BirdName} sound
+BirdSound what does {BirdName} say
+BirdSound what does a {BirdName} say
+BirdSound what does the {BirdName} say
+BirdSound what does an {BirdName} say
+BirdSound how does {BirdName} go
+BirdSound how does a {BirdName} go
+BirdSound how does an {BirdName} go
+BirdSound how does the {BirdName} go
+BirdSound what does {BirdName} sound like
+BirdSound what does an {BirdName} sound like
+BirdSound what does the {BirdName} sound like
+BirdSound how is {BirdName} call
+BirdSound how is the {BirdName} call
+BirdSound how is an {BirdName} call
+BirdSound how is a {BirdName} call
+BirdSound how does {BirdName} call sound like
+BirdSound how does the {BirdName} call sound like
+BirdSound how does a {BirdName} call sound like
+BirdSound how does an {BirdName} call sound like
+BirdSound play {BirdName} call
+BirdSound play a {BirdName} call
+BirdSound play an {BirdName} call
+BirdSound play the {BirdName} call
+BirdSound {BirdName} call
+BirdSound {BirdName} call
+BirdSound {BirdName} call
+BirdSound {BirdName} call
+BirdSound what does a {BirdName} sound like
+BirdInfo what is a {BirdName}
+BirdInfo what is {BirdName}
+BirdInfo what is an {BirdName}
+BirdInfo what is the {BirdName}
+BirdInfo to tell me about {BirdName}
+BirdInfo to tell me about a {BirdName}
+BirdInfo to tell me about an {BirdName}
+BirdInfo to tell me about the {BirdName}
+BirdInfo to tell me about {BirdName} male
+BirdInfo to tell me about {BirdName} female
+BirdInfo to tell me about little {BirdName}
+BirdInfo about {BirdName}
+BirdInfo about a {BirdName}
+BirdInfo about an {BirdName}
+BirdInfo about the {BirdName}
+BirdInfo {BirdName}
+BirdInfo a {BirdName}
+BirdInfo an {BirdName}
+BirdInfo the {BirdName}
+BirdInfo what can you tell me about {BirdName}
+BirdInfo what can he tell me about {BirdName}
+BirdInfo what do you know about {BirdName}
+BirdInfo to give me information on {BirdName}
+BirdInfo to give me information about {BirdName}
+BirdInfo tell me a little about {BirdName}
+BirdInfo tell me the history of {BirdName}
+BirdInfo tell me more about a {BirdName}
+BirdInfo tell me more about the {BirdName}
+BirdInfo tell me more about {BirdName}
+BirdInfo details of {BirdName}
+BirdInfo to tell me the details of {BirdName}
+BirdInfo what are the qualities of {BirdName}
+BirdInfo what are the features of {BirdName}
+BirdInfo what are the characteristics of {BirdName}
+BirdInfo tell me the qualities of {BirdName}
+BirdInfo tell me the features of {BirdName}
+BirdInfo tell me the characteristics of {BirdName}
+BirdInfo describe {BirdName}
+BirdInfo to describe {BirdName}
+BirdInfo tell me the description of {BirdName}
+BirdInfo description of {BirdName}
+BirdInfo what knowledge do you have about {BirdName}
+BirdInfo what information do you have about {BirdName}
+BirdInfo what information can you tell about {BirdName}
+BinaryResponseQuestion {Response}
+Discover about birds
+Discover discover birdlife
+Discover to discover
+Discover to discover birds
+Discover to discover bird life
+Discover to discover the bird life
+Discover to explore birds
+Discover to explore the bird life
+Discover play anything
+Discover which birds do you know
+Discover what do you know about birds
+Discover tell me about the life of birds
+Discover tell me about the bird life
+Discover which birds do you like
+Discover to play anything
+Discover tell me about the migratory birds
+Discover different species of birds
+Discover tell me about different species of birds
+DiscoverNext next
+DiscoverNext play next
+DiscoverNext next bird
+DiscoverNext next card
+DiscoverNext to play next
+DiscoverNext to play next bird
+DiscoverNext to play next card
+DiscoverNext go to next bird
+DiscoverNext go to next card
+DiscoverStop stop
+DiscoverStop to stop
+DiscoverStop stop loop
+DiscoverStop to stop loop
+Help what is birdman
+Help to introduce
+Help who is birdman
+Help who are you
+Help what are you
+Help help
+Help to help
+Help to give an example
